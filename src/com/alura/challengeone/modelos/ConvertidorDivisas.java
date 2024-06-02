@@ -12,8 +12,10 @@ import java.util.Map;
 public class ConvertidorDivisas {
 
     public double convertidor (String monedaOrigen, String monedaDestino, double monto) {
-        
-        String url = "https://v6.exchangerate-api.com/v6/a54cfc6def3b03e7e6b40072/latest/" + monedaOrigen;
+
+        String apiKey = System.getenv("EXCHANGE_API_KEY");
+
+        String url = "https://v6.exchangerate-api.com/v6/" +apiKey+ "/latest/" + monedaOrigen;
 
         try{
             HttpClient client = HttpClient.newHttpClient();
@@ -23,7 +25,7 @@ public class ConvertidorDivisas {
 
             HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
             String data = response.body();
-//            System.out.println("data = " + data);
+            System.out.println("data = " + data);
             Gson gson = new GsonBuilder().setPrettyPrinting().create();
             ExchangeRateResponse exchangeResponse = gson.fromJson(data, ExchangeRateResponse.class);
 

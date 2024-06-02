@@ -19,6 +19,8 @@ public class Principal {
 //        double res = convertidor.convertidor(origen, "USD", 100);
 //
 //        System.out.println("res = " + res);
+        String apiKey = System.getenv("EXCHANGE_API_KEY");
+        System.out.println("API Key: " + apiKey);
         
         while (true) {
             System.out.println("******************************");
