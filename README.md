@@ -48,6 +48,17 @@ Esta clase contiene el menú interactivo que permite al usuario seleccionar y re
     <version>2.8.9</version>
 </dependency>
 ```
+### Configuración de la API Key
+
+Para utilizar este programa, necesitas una API Key de ExchangeRate-API. Sigue estos pasos para configurar tu API Key como una variable de entorno:
+
+1. **Obtener una API Key**:
+   Si no tienes una API Key, regístrate en [ExchangeRate-API](https://www.exchangerate-api.com/) y obtén tu API Key.
+
+2. **Configurar la variable de entorno**:
+   En tu sistema operativo, configura una variable de entorno llamada `EXCHANGE_API_KEY` y asigna tu API Key como su valor. Por ejemplo, en sistemas Unix o Linux, puedes hacerlo ejecutando el siguiente comando en la terminal:
+   ```sh
+   export EXCHANGE_API_KEY="tu_api_key_aqui"
 
 4. Compila y ejecuta el programa.
 

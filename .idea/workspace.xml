@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90fbeda6-636e-40a6-aee1-92c88075c572" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/alura/challengeone/modelos/ConvertidorDivisas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/alura/challengeone/modelos/ExchangeRateResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/alura/challengeone/modelos/ExchangeResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/alura/challengeone/principal/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alura/challengeone/principal/Principal.java" afterDir="false" />
-    </list>
+    <list default="true" id="90fbeda6-636e-40a6-aee1-92c88075c572" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +20,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
